@@ -77,7 +77,7 @@ function checkMatch(){
         cards[cardsChosenID[1]].setAttribute('src', 'images/blank.png')
         alert('you have clicked the same image!')
     }
-    if (cardsChosen[0] == cardsChosen[1]){
+    else if (cardsChosen[0] == cardsChosen[1]){
         alert('you found a match!')
         cards[cardsChosenID[0]].setAttribute('src', 'images/white.png')
         cards[cardsChosenID[1]].setAttribute('src', 'images/white.png')
